@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('../fonts/ChopinScript.ttf') format('truetype');
+  }
+  
+
+  
+h2, h3 , h4 {
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-size: 60px; 
+    font-family: 'myFont';
+}
+
+h2 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.nav-link{
+    font-size: 20px;
+    color:#4e4f51;
+    font-weight: 600;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-hero {
+    background-image: url(../assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.navbar-expand-lg {
+    display: block !important;
+}
+
+#hero img{
+    max-width: 550px;
+    border: 10px solid #fff;
+}
+
+#hero .getting p,
+#hero .getting h1 {
+    color: '#4e4f51';
+}
+
+.prenup-img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px #cdd8db;
+}
+
+.box {
+    background-color: #f8f6f4;
+    padding: 40px;
+    box-shadow: 0px 0px 5px 0px #cdd8db;
+}
+
+.divider {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #858585;
+    margin-bottom: 25px;
+}
+
+#date {
+    padding: 50px 20px 20px;
+}
+
+#prenup {
+    padding: 50px 20px;
+}
+
+#location {
+    padding: 50px 20px;
+    background-color:#cdd8db;
+}
+
+#event-info {
+    padding: 50px 20px;
+}
+
+.navbar-expand-lg {
+    display: block !important;
+    flex-basis: unset !important;
+}
+
+#footer {
+    background-color:#cdd8db;
+    padding: 10px 20px;
+}
