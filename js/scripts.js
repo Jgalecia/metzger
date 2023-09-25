@@ -1,7 +1,15 @@
-/*!
-* Start Bootstrap - Bare v5.0.5 (https://startbootstrap.com/template/bare)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+AOS.init({ duration: 1000, offset: 50 });
+AOS.refresh();
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var navbarToggle = document.querySelector('.navbar-toggler');
+    var navbarToggleIcon = document.querySelector('#navbarToggleIcon');
+
+    navbarToggle.addEventListener('click', function () {
+        var isCollapsed = navbarToggle.getAttribute('aria-expanded') === 'true';
+
+        navbarToggleIcon.src = isCollapsed ? './assets/icons/xmark-solid.svg' : './assets/icons/bars-solid.svg';
+
+    });
+});
