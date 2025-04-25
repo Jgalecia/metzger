@@ -86,6 +86,10 @@ html {
     color:#faca51;
 }
 
+button:focus {
+    outline: none !important;
+}
+
 .btn-cta ,.btn-cta-secondary {
     background-color: #faca51;
     outline: none;
@@ -244,7 +248,7 @@ html {
     
     h2 {
         font-size: 25px !important;
-        text-align: center !important;
+        text-align: center;
     }
 
 }
@@ -415,6 +419,7 @@ main {
 
 #gallery .title, #gallery .description {
     color: #ffffff;
+    font-family: 'poppins' !important;
 }
 
   /* --- wrapper card --- */
@@ -482,7 +487,7 @@ main {
   .booking-bar button:hover,
   .booking-bar button:focus{
     background:var(--btn-bg-h);
-    color:#ffffff;
+    color:#ffffff !important;
   }
 
   /* mobile: stack nicely */
@@ -758,6 +763,10 @@ main {
 
     .contact-info ,.contact-form-container p{
         text-align: center !important;
+    }
+
+    #gallery .title{
+        text-align: left !important;
     }
 
     
