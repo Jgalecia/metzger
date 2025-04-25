@@ -769,5 +769,12 @@ main {
         text-align: left !important;
     }
 
-    
+    #logos .col-lg-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #logos {
+        padding-bottom: 10px !important;
+    }
 }
