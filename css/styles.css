@@ -95,6 +95,7 @@ html {
     margin-top: 30px;
     border:none;
     font-weight: 700;
+    border-radius: 8px;
 }
 
 .btn-cta:hover {
@@ -234,15 +235,15 @@ html {
 
 @media screen and (max-width: 576px) {
     #hero img {
-        max-width: 380px;
+        max-width: 250px;
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 30px;
     }
     
     h2 {
-        font-size: 35px;
+        font-size: 25px !important;
     }
 
 }
@@ -475,6 +476,7 @@ main {
     font-size:1rem;
     cursor:pointer;
     transition:background .25s ease;
+    color: #175151 !important;
   }
   .booking-bar button:hover,
   .booking-bar button:focus{
@@ -627,7 +629,7 @@ main {
   }
 
   .footer .social-icons a:hover {
-    background-color: #3e8e41;
+    background-color: #175151;
   }
 
   .footer nav {
@@ -669,3 +671,86 @@ main {
   #navbarSupportedContent {
     justify-content: flex-end;
   }
+
+
+@media screen and (max-width: 991px) {
+    #hero .hero-content p, #hero .hero-content h1 ,.hero-content {
+        text-align: center !important;
+    }
+
+    #hero img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 40px;
+        float: unset;
+    }
+
+    .sold-img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #hero , #get-it-sold, #contact-us ,#logos,#gallery ,#our-services{
+        padding: 30px 20px;
+    }
+
+    .booking-bar {
+        margin-top: 40px;
+    }
+
+    .box {
+        padding: 30px;
+    }
+
+    #get-it-sold .col-lg-12 ,#gallery .container ,#contact-us .container,#our-services .col-lg-4 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #get-it-sold h2 {
+        text-align: center !important;
+    }
+
+    #logos .logos-img {
+        max-width: 80px;
+        margin-bottom: 20px;
+    }
+
+    #logos .logos-img.mb , .card-box.mb {
+        margin-bottom: 0px !important;
+    }
+
+    .card-box {
+        margin-bottom: 20px;
+    }
+
+    .contact-form-container {
+        padding: 20px;
+    }
+    
+    p ,label {
+        font-size: 14px !important;
+    }
+
+    .booking-bar {
+        padding: 20px;
+    }
+
+    .field select, .field input {
+        font-size: 12px;
+    }
+
+    .contact-button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+}
