@@ -692,6 +692,11 @@ main {
         margin-right: auto;
         display: block;
     }
+
+    #header .icon {
+        width: 25px !important;
+        filter: invert(1) !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
