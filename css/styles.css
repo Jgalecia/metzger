@@ -244,6 +244,7 @@ html {
     
     h2 {
         font-size: 25px !important;
+        text-align: center !important;
     }
 
 }
@@ -750,7 +751,9 @@ main {
         display: block;
     }
 
-    .contact-info {
-        text-align: center;
+    .contact-info ,.contact-form-container p{
+        text-align: center !important;
     }
+
+    
 }
