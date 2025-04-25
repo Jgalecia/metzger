@@ -117,6 +117,7 @@
                                 <div class="card-box">
                                     <h5 data-aos="fade-up">Don't Just List it...</h5>
                                     <p data-aos="fade-up">Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.</p>
+                                    <button class="btn-cta-secondary mt-1 mb-4">Read more</button>
                                 </div>
                             </div>
                             <div class="col-lg-4" data-aos="fade-up">
@@ -124,6 +125,7 @@
                                 <div class="card-box">
                                     <h5 data-aos="fade-up">Top Residential Sales Last 5 Years </h5>
                                     <p data-aos="fade-up">We helped nearly 90 clients in 2021, and closed 28.5 million in sales! Our team works hard everyday to grow and learn, so that we may continue to excel in our market. Our clients deserve our best, & we want to make sure our best is better every year.</p>
+                                    <button class="btn-cta-secondary mt-1 mb-4">Read more</button>
                                 </div>
                             </div>
                             <div class="col-lg-4" data-aos="fade-up">
@@ -131,6 +133,7 @@
                                 <div class="card-box">
                                     <h5 data-aos="fade-up">Guide to Buyers</h5>
                                     <p data-aos="fade-up">Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists, contractors on speed dial, & more!</p>
+                                    <button class="btn-cta-secondary mt-1 mb-4">Read more</button>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +162,7 @@
     </section>
     <section id="gallery">
         <div class="container">
-            <main>
+            <main data-aos="fade-up">
                 <ul class='slider'>
                     <li class='item' style="background-image: url('./assets/gal-img-1.webp')">
                     <div class='content'>
@@ -266,50 +269,47 @@
             </div>
         </div>
     </section>
-    <section id="contact-us" data-aos="fade-up">
+    <section id="contact-us">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <form class="contact-form" method="post" action="#">
-                        <div>
-                          <label for="name">Name *</label>
-                          <input type="text" id="name" name="name" required />
+            <div class="contact-section" data-aos="fade-up">
+                <div class="contact-form-container" >
+                    <h2>Let’s Get In Touch!</h2>
+                    <p>Fill in the form below and I’ll get back to you soon.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required />
                         </div>
-                
-                        <div>
-                          <label for="email">Email *</label>
-                          <input type="email" id="email" name="email" required />
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required />
                         </div>
-                
-                        <div>
-                          <label for="phone">Phone</label>
-                          <input type="text" id="phone" name="phone" />
+                        <div class="form-group">
+                            <textarea placeholder="Write your message here..." required></textarea>
                         </div>
+                        <button class="contact-button" type="submit">GET IN TOUCH</button>
+                    </form>
                 
-                        <div>
-                          <label for="message">Message *</label>
-                          <textarea id="message" name="message" rows="5" required></textarea>
+                    <div class="contact-info">
+                        <h4>Contact Info</h4>
+                        <div class="contact-info-item">
+                            <strong>EMAIL</strong><br/>
+                            marci@metzger.com
                         </div>
-                
-                        <input type="submit" value="Send Message" />
-                      </form>
-                    
+                        <div class="contact-info-item">
+                            <strong>CONTACT NUMBER</strong><br/>
+                            <a href="tel:2069296886">(206) 919-6886</a>
+                        </div>
+                        <div class="contact-info-item">
+                            <strong>LOCATION</strong><br/>
+                            3190 HW-160, Suite F, Pahrump, Nevada 89048, United States<br/>
+                            <a href="https://www.google.com/maps/dir//3190+NV-160+Suite+F,+Pahrump,+NV+89048,+Estados+Unidos/@36.1842212,-116.0376543,18457m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x80c6398c31855555:0xca2c250302350734!2m2!1d-115.9552532!2d36.1842494?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D" 
+                               target="_blank" 
+                               style="color: #fcbf7e; text-decoration: underline;">
+                               View on Google Maps
+                            </a>
+                          </div>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <h2>Office Hours</h2>
-                    <table class="hours-table">
-                      <tbody>
-                        <tr><th>Monday</th><td>8 AM – 7 PM</td></tr>
-                        <tr><th>Tuesday</th><td>8 AM – 7 PM</td></tr>
-                        <tr><th>Wednesday</th><td>8 AM – 7 PM</td></tr>
-                        <tr><th>Thursday</th><td>8 AM – 7 PM</td></tr>
-                        <tr><th>Friday</th><td>8 AM – 7 PM</td></tr>
-                        <tr><th>Saturday</th><td>8 AM – 7 PM</td></tr>
-                        <tr><th>Sunday</th><td>8 AM – 7 PM</td></tr>
-                      </tbody>
-                    </table>
-                    <p style="font-size:0.9rem;margin-top:0.75rem;"><em>Appointments outside office hours available upon request. Just call!</em></p>
-                </div>
+                <div class="contact-image"></div>
             </div>
         </div>
     </section>

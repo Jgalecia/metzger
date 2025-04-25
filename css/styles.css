@@ -93,6 +93,7 @@ html {
     padding: 10px 25px;
     margin-top: 30px;
     border:none;
+    font-weight: 700;
 }
 
 .btn-cta:hover {
@@ -100,7 +101,7 @@ html {
    color:#175151;
 }
 
-.btn-cta-secondary:hover {
+.btn-cta-secondary:hover,.contact-button:hover {
     background-color: #175151;
    color:#ffffff !important;
 }
@@ -125,7 +126,7 @@ html {
 }
 
 .card-box h5 {
-   padding-top: 16px;
+   padding-top: 30px;
 }
 
 #get-it-sold ,#contact-us{
@@ -436,8 +437,6 @@ main {
     color: #ffffff;
 }
 
-
-
   /* --- wrapper card --- */
   .booking-bar{
     width:100%;
@@ -502,6 +501,7 @@ main {
   .booking-bar button:hover,
   .booking-bar button:focus{
     background:var(--btn-bg-h);
+    color:#ffffff;
   }
 
   /* mobile: stack nicely */
@@ -521,9 +521,103 @@ main {
     --border:#d9e1e6;
     --label:#333;
     --input-text:#4a5568;
-    --btn-bg:#fcd34d;
-    --btn-bg-h:#eab308;
+    --btn-bg:#faca51;
+    --btn-bg-h:#175151;
     --radius:8px;
     --shadow:0 6px 16px rgba(0,0,0,.08);
     --gap:2.5rem;
+  }
+
+
+  .contact-section {
+    display: flex;
+  }
+
+  .contact-form-container {
+    width: 60%;
+    padding: 50px;
+    background-color: #fff;
+  }
+
+  .contact-form-container h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .contact-form-container p {
+    margin-bottom: 30px;
+    color: #555;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+
+  .form-group textarea {
+    height: 120px;
+    resize: none;
+  }
+
+  .contact-button {
+    background-color: #faca51;
+    color: #175151;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .contact-info {
+    margin-top: 40px;
+  }
+
+  .contact-info h4 {
+    margin-bottom: 20px;
+    border-left: 4px solid #faca51;
+    padding-left: 10px;
+  }
+
+  .contact-info-item {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  .contact-info-item i {
+    margin-right: 10px;
+    color: #fcbf7e;
+  }
+
+  .contact-image {
+    width: 40%;
+    background: url('../assets/contact-us.jpg') center center/cover no-repeat;
+  }
+
+  .contact-info-item a {
+    color:#faca51 !important;
+  }
+
+  @media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column;
+    }
+
+    .contact-form-container,
+    .contact-image {
+      width: 100%;
+    }
+
+    .contact-image {
+      height: 300px;
+    }
   }
