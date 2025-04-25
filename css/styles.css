@@ -52,6 +52,7 @@ html {
 
 .navbar {
     background-color: #175151;
+    padding: 25px;
 }
 
 #hero {
@@ -164,29 +165,6 @@ html {
 #our-services {
     padding: 80px 20px;
    
-}
-
-#follow-us {
-    padding: 50px 20px;
-} 
-
-
-#follow-us  .clickable {
-    width: 200px;
-    height: 50px;
-    margin: 0 10px;
-    color: #4e4f51;
-    border: 1px solid #4e4f51;
-}
-
-#follow-us .clickable:hover {
-    background-color:#d9e2e5;
-    color: #000;
-}
-
-#footer {
-    background-color:#d9e2e5;
-    padding: 10px 20px;
 }
 
 .mapouter {
@@ -595,7 +573,7 @@ main {
 
   .contact-info-item i {
     margin-right: 10px;
-    color: #fcbf7e;
+    color: #faca51;
   }
 
   .contact-image {
@@ -620,4 +598,74 @@ main {
     .contact-image {
       height: 300px;
     }
+  }
+
+
+  .footer {
+    background-color: #175151;
+    color: white;
+    text-align: center;
+    padding: 40px 20px 20px;
+  }
+
+  .footer .social-icons {
+    margin-bottom: 30px;
+  }
+
+  .footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #faca51;
+    color: white;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    transition: background 0.3s;
+  }
+
+  .footer .social-icons a:hover {
+    background-color: #3e8e41;
+  }
+
+  .footer nav {
+    margin-bottom: 10px;
+  }
+
+  .footer nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+
+  .footer .subnav {
+    font-size: 14px;
+    color: #bbb;
+  }
+
+  .footer .subnav span {
+    margin: 0 8px;
+  }
+
+  .footer-bottom {
+    background-color: #faca51;
+    color: #175151;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .footer-bottom span {
+    font-weight: bold;
+  }
+
+  .footer-bottom .heart {
+    color: #fff;
+  }
+
+  #navbarSupportedContent {
+    justify-content: flex-end;
   }

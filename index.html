@@ -28,15 +28,16 @@
 <body>
     <section id="header">
         <nav class="navbar navbar-expand-md">
-            <div class="container-fluid">
+            <div class="container">
+                <img src="./assets/nav-logo.png" class="nav-logo">
                 <div class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <img src='./assets/icons/bars-solid.svg' id="navbarToggleIcon" class="icon" alt="icon"/>
                 </div>
-                <div class="collapse justify-content-center align-items-center navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav justify-content-center align-items-center mb-2 mb-lg-0">
-                        <img src="./assets/nav-logo.png" class="nav-logo">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        
                         <li class="nav-item">
                             <a class="nav-link hover-animation" href="#hero">HOME</a>
                         </li>
@@ -314,12 +315,28 @@
         </div>
     </section>
     <section id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="mb-0">All right reserved</p>
-                </div>
+        <div class="footer">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
+        
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">LISTINGS</a>
+                <a href="#">LET'S MOVE</a>
+                <a href="#">ABOUTS</a>
+                <a href="#">LOCATIONS</a>
+            </nav>
+        
+            <div class="subnav">
+                <span>CONTACT</span> | <span>BLOG</span> | <span>SALES</span> | <span>LANDS</span>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright © 2023 Marci METZGER Homes | ALL RIGHTS RESERVED
         </div>
     </section>
     <!-- Bootstrap core JS-->
